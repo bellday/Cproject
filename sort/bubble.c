@@ -4,6 +4,7 @@ void BubbleSort(int arr[],int Length){
     int left =0;
     int right = 0;
     int temp;
+    int a = 1;
     for (left = 0; left < Length-1; left ++){
 
         for (right =0; right < Length-(left +1); right ++){
